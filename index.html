@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0f17" />
+  <title>LouiesRepos • CID IPC Quiz V0.5</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand" role="banner" aria-label="LouiesRepos">
+        <div class="logo" aria-hidden="true" title="LouiesRepos">
+          <svg viewBox="0 0 64 64" width="34" height="34" focusable="false" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="currentColor" stop-opacity="1"></stop>
+                <stop offset="1" stop-color="currentColor" stop-opacity=".65"></stop>
+              </linearGradient>
+            </defs>
+            <rect x="7" y="7" width="50" height="50" rx="14" fill="none" stroke="url(#g)" stroke-width="3"/>
+            <path d="M22 18v28h6V24h8c3 0 5 1.6 5 4 0 2.6-2.1 4-5 4h-8v6h9l6 8h7l-7.2-9.2c3.6-1.4 5.8-4.5 5.8-8.6 0-6.1-4.5-9.2-11-9.2H22z"
+              fill="currentColor" opacity=".92"/>
+          </svg>
+        </div>
+        <div class="brandtext">
+          <div class="name">LouiesRepos</div>
+          <div class="tag">CID • IPC Practice Quiz</div>
+        </div>
+      </div>
+
+      <div class="top-actions">
+        <button class="ghost" id="btnAbout" type="button">About</button>
+        <button class="ghost" id="btnReset" type="button" title="Reset to setup">Reset</button>
+      </div>
+    </header>
+
+    <main class="main" role="main">
+      <!-- SETUP -->
+      <section class="card" id="screenSetup" aria-label="Quiz setup">
+        <h1 class="h">Start a test</h1>
+
+        <div class="grid">
+          <div class="field">
+            <label class="label">Test type</label>
+            <div class="segmented" role="tablist" aria-label="Test type" id="modeSeg">
+              <button class="seg active" data-mode="mc" type="button" role="tab" aria-selected="true">Multiple Choice</button>
+              <button class="seg" data-mode="tf" type="button" role="tab" aria-selected="false">True / False</button>
+              <button class="seg" data-mode="mix" type="button" role="tab" aria-selected="false">Combined</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Questions</label>
+            <!-- dynamically populated -->
+            <div class="segmented" role="tablist" aria-label="Question count" id="countSeg"></div>
+          </div>
+
+          <!-- CHAPTERS -->
+          <div class="field span2">
+            <div class="chaptersHeader">
+              <label class="label">Chapters</label>
+              <div class="chaptersActions">
+                <button class="mini" id="btnSelectAll" type="button">Select all</button>
+                <button class="mini" id="btnSelectNone" type="button">Select none</button>
+              </div>
+            </div>
+
+            <div class="chaptersBox" id="chaptersBox" aria-label="Chapter selection">
+              <div class="status">Loading chapters…</div>
+            </div>
+
+            <div class="hint muted" style="margin-top:10px">
+              ...
+            </div>
+          </div>
+        </div>
+
+        <div class="ctaRow">
+          <button class="primary" id="btnStart" type="button" disabled>
+            <span class="dot"></span>
+            Start Quiz
+          </button>
+          <div class="hint">
+            Tip: Use <kbd>1</kbd>-<kbd>4</kbd> to answer MC, <kbd>T</kbd>/<kbd>F</kbd> for True/False, <kbd>Enter</kbd> to continue.
+          </div>
+        </div>
+
+        <div class="status" id="loadStatus" aria-live="polite">
+          Loading question banks…
+        </div>
+      </section>
+
+      <!-- QUIZ -->
+      <section class="card hidden" id="screenQuiz" aria-label="Quiz">
+        <div class="quizTop">
+          <div class="progressWrap" aria-label="Progress">
+            <div class="progressLabel">
+              <span id="qCounter">Question 1/20</span>
+              <span class="muted" id="scoreLive">Score: 0%</span>
+            </div>
+            <div class="progressBar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <div class="progressFill" id="progressFill"></div>
+            </div>
+          </div>
+          <div class="pill" id="modePill">Multiple Choice</div>
+        </div>
+
+        <div class="qmeta" id="metaLine"></div>
+
+        <div class="question" id="questionText">…</div>
+        <div class="answers" id="answers"></div>
+
+        <div class="footerRow">
+          <button class="ghost" id="btnPrev" type="button" disabled>Back</button>
+          <div class="centerMsg" id="feedback" aria-live="polite"></div>
+          <button class="primary" id="btnNext" type="button" disabled>Next</button>
+        </div>
+      </section>
+
+      <!-- RESULTS -->
+      <section class="card hidden" id="screenResults" aria-label="Results">
+        <div class="resultsTop">
+          <h2 class="h">Results</h2>
+          <div class="pill" id="resultPill">Completed</div>
+        </div>
+
+        <div class="scoreBig">
+          <div class="scoreNum" id="finalPercent">0%</div>
+          <div class="scoreSub" id="finalSummary">0 / 0 correct</div>
+        </div>
+
+        <div class="insights">
+          <div class="insight">
+            <div class="insightTitle">Strongest chapter</div>
+            <div class="insightValue" id="strongest">—</div>
+            <div class="insightHint" id="strongHint">Focus maintenance + mixed review.</div>
+          </div>
+          <div class="insight">
+            <div class="insightTitle">Weakest chapter</div>
+            <div class="insightValue" id="weakest">—</div>
+            <div class="insightHint" id="weakHint">Recommended next revision target.</div>
+          </div>
+        </div>
+
+        <!-- collapsed by default -->
+        <details class="review">
+          <summary>Review</summary>
+          <div class="reviewList" id="reviewList"></div>
+        </details>
+
+        <div class="ctaRow">
+          <button class="primary" id="btnRestart" type="button">New Quiz</button>
+          <button class="ghost" id="btnRetakeWeak" type="button" title="Start a new quiz filtered to the weakest chapter">
+            Retake weakest chapter
+          </button>
+        </div>
+      </section>
+
+      <!-- ABOUT MODAL -->
+      <div class="modal hidden" id="aboutModal" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+        <div class="modalCard">
+          <div class="modalTop">
+            <div>
+              <div class="modalTitle" id="aboutTitle">LouiesRepos • CID IPC Quiz</div>
+              <div class="muted">Mobile-Friendly CID IPC Practice</div>
+            </div>
+            <button class="ghost" id="btnCloseAbout" type="button">Close</button>
+          </div>
+
+          <div class="modalBody">
+            <p>
+              Loads your question banks and recommends your strongest & weakest chapters based on accuracy.
+            </p>
+            <p class="muted">
+              Keyboard: <span class="mono">1-4</span>, <span class="mono">T/F</span>, <span class="mono">Enter</span>.
+            </p>
+          </div>
+        </div>
+        <div class="modalBackdrop" id="aboutBackdrop" aria-hidden="true"></div>
+      </div>
+    </main>
+
+    <footer class="bottombar">
+      <span class="muted">© <span id="year"></span> LouiesRepos</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5762 @@
+[
+    {
+        "id": 1,
+        "question": "The four primary considerations that a designer must balance are Performance, Cost, Reliability, and DFM (Design for Manufacturability).",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 1",
+        "note": "The book lists DFX (Design for X), which is a broader term than just DFM.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Performance classes have been developed to reflect progressive increases in sophistication, functional performance, and the frequency of inspection or stress testing.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 2",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "According to Table 1.1, the \"Consumer\" product category has an approximate acceptable failure risk of 0.1%.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 3",
+        "note": "The table lists the failure risk for the \"Consumer\" category as 1%.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "The cyclic temperature range (delta T) is defined as the difference between the maximum (Tmax) and minimum (Tmin) operational temperatures.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 4",
+        "note": "The text explicitly states, \"delta T is significantly less\" than the difference between Tmin and Tmax.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "A Z-Axis aspect ratio of 5:1 is calculated by dividing a board thickness of 1.52 mm by a drill size of 0.31 mm.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 5",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "A single printed board design must have the same producibility level for all of its features.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 5",
+        "note": "The text gives an example of a board having Level A, B, and C features all in one design.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "An IPC Type 4 board is a multilayer board that may contain blind and/or buried vias.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 5",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "The fanout process uses unplated holes called vias to make connections from surface lands to internal layers.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 6",
+        "note": "Vias used in the fanout process are plated through-holes.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "The IPC-4821 standard was developed to define the materials used in embedded capacitors.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 8",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Good placement practice dictates that high-frequency circuits should be located near the connector to minimize conductor length.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 8",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "question": "In digital designs, routing of signal circuitry is considered first, and the return path is a secondary consideration.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 9",
+        "note": "The text states, \"In digital designs routing of return circuitry is considered first and the signal routing is a secondary consideration.\"",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "question": "High-frequency circuits are defined as being between 3 and 30 MHz.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 9",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "question": "Components should be located in the connector guide areas on the edges of the printed board to facilitate assembly.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 10",
+        "note": "The text explicitly states, \"Components should not be located in the connector guide areas...\"",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "question": "Current is defined as the opposition to the flow of electrons and is measured in ohms.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 11",
+        "note": "This is the definition of Resistance. Current is the flow of electrons.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "question": "A disruption in a signal's return path, such as a slot in a plane, must be avoided as it can cause signal noise and timing errors.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 12",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "question": "To convert a current of 0.12 amps into milliamps, you move the decimal place three positions to the right, resulting in 120 milliamps.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 13",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "question": "The formula P = V²/R is a valid derivation of the power formula using Ohm's Law.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 14",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "question": "To minimize EMI, adjacent signal layers in the Z-axis of the board should have the same directional biases.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 15",
+        "note": "They should have opposite directional biases.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "question": "The most popular reinforcement material for PCB laminates is woven glass.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 17",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "question": "Core material is at a partial stage of cure (\"B\" stage), while prepreg is fully cured.:Chapter 1 • Ch 1, Pg 17 - The opposite is true",
+        "chapter": null,
+        "section": null,
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "question": "The common thicknesses for core materials used in multi-layer boards are 0.75 mm, 1.5 mm, and 2.4 mm.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 18",
+        "note": "These are common thicknesses for single/double-sided boards; core materials are much thinner (e.g., 0.102 mm, 0.127 mm).",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "question": "Half-ounce copper foil is defined as the weight of a square foot of that foil, which is 17 micrometers thick.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 18",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "question": "The additive process for PCB fabrication involves no electricity in moving the copper molecules to the board surface.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 19",
+        "note": "The text specifies it is an \"electroless process.\"",
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "question": "The etching process guideline states that 1/2 mil of copper per side per ounce of copper is lost on the top portion of the trace.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 21",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "question": "In foil construction, the board is laminated first, and then solid sheets of copper foil are attached to the top and bottom surfaces.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 22",
+        "note": "The solid sheets of copper foil are part of the lamination package from the start.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "question": "Core material shrinks during the etching process, and the amount of shrinkage depends on how much copper is removed.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 22",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "question": "A supported hole is a hole in a printed board that does not contain plating or other conductive reinforcement.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 24",
+        "note": "This is the definition of an unsupported hole.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "question": "A via is a plated through-hole intended for inserting a component lead.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 24",
+        "note": "A via is for electrical interconnection only, with no intention of inserting a component lead.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "question": "Desmear is an optional process that removes only the resin smeared over exposed conductor ends due to drill heat.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 25",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "question": "Etchback is a process that removes both the epoxy resin and the glass reinforcement to expose additional internal conductor surfaces for plating.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 25",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "question": "The final finished hole size (FSH) is typically 2 to 4 mils larger than the drill size used to create the hole.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 26",
+        "note": "The finished hole size is smaller than the drill size because of the plating thickness added to the barrel.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "question": "The minimum annular ring for internal layers is measured from the edge of the finished hole.",
+        "chapter": "Chapter 1",
+        "section": "Ch 1",
+        "page": "Pg 27",
+        "note": "It is measured from the edge of the drilled hole and does not include the plating.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "question": "In an \"enclosed\" PCB housing, heat is dissipated primarily through natural convection and radiation into the host environment.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 36",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "question": "To maximize thermal radiation, it is a good design practice to mount \"hot\" devices very close to each other.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 36",
+        "note": "The text states to mount them away from each other.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "question": "The electrical property that describes a material's energy loss is its dielectric constant (Dk).",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 37",
+        "note": "This describes the dissipation factor (loss tangent). Dk relates to capacitance.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "question": "The glass transition temperature (Tg) is the temperature at which the glass reinforcement in the laminate changes from a brittle to a rubbery state.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 39",
+        "note": "It is the resin system that changes state, not the glass.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "question": "The Z-axis expansion rate of a typical glass-epoxy laminate is approximately 85 ppm/°C.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 39",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "question": "Insufficient copper thickness or copper that is not ductile are factors that can reduce a plated hole's ability to withstand thermal expansion strain.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 40",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "question": "Thermal vias are sometimes filled with a conductive material to enhance thermal conductivity.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 41",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "question": "To avoid solder assembly problems, large copper planes used for thermal transfer should have component pads directly attached without any thermal relief.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 42",
+        "note": "Component pads should have sufficient thermal relief to prevent defects due to heatsinking.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "question": "The component manufacturer specifies the amount of heat a component generates, often rated in watts (e.g., 1/4 watt, 1/2 watt).",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 43",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "question": "A \"golf course\" heatsink is an external metal heatsink that attaches to the secondary side of the board and has openings to allow component leads from the primary side to pass through.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 45",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "question": "The RoHS Directive was revised in 2011, and under the RoHS2 Directive, several new substances like antimony and beryllium were restricted.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 46",
+        "note": "The text states that under the RoHS2 Directive, no additional substances were restricted.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "question": "The REACH regulation requires manufacturers to notify EU authorities if a Substance of Very High Concern (SVHC) is present in a product above 0.01% w/w.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 46",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "question": "Metal whiskers grow from the tip, with new material being added at the end of the whisker.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 48",
+        "note": "The text states that atoms aggregate at the root (NOT the tip) of the forming whisker.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "question": "The earliest \"known\" account of whisker-induced shorting was from tin whiskers during World War II.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 49",
+        "note": "It was from cadmium whiskers.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "question": "According to the NASA/DoD study, mixed metallurgy solder joints containing a higher percentage of SnPb are more reliable than those with a higher percentage of Pb-free solders.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 52",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "question": "The NASA/DoD study concluded that Conductive Anodic Filament (CAF) growth is re-emerging due to the higher processing temperatures of Pb-free solders.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 53",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "question": "DFR stands for Design for Reliability.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 54",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "question": "Highly Accelerated Stress Test (HAST) is a non-destructive test, and products that pass can be delivered to the customer.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 54",
+        "note": "HAST is usually destructive. Burn-in is the non-destructive test.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "question": "The current IPC-2221B introduces a new, more robust set of test coupons, but still lists the legacy coupons as \"primary.\"",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 54",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "question": "For leadless surface mount components, the longer the life requirement, the higher the allowable Relative Reliability Index (R) becomes.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 58",
+        "note": "The text states, \"The longer the life... the lower the number in the matrix becomes.\"",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "question": "The term \"wetting\" describes the solder spreading smoothly up the lead of a component.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 60",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "question": "Bare board testing is the first test performed on a PCB, used to prove full continuity and that there are no open or short circuits.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 62",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "question": "For high-volume production of a few board types, a flying probe tester is generally the most cost-effective method.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 65",
+        "note": "A bed-of-nails (BON) tester is typically more cost-effective for high-volume production.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "question": "Functional testing is usually done from the connector(s) of the board assembly.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 65",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "question": "The recommended land size for a square test probe is 1.0 mm [0.040 in].",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 65",
+        "note": "The recommended size is 1.0 mm for a round land and 0.9 mm for a square land.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "question": "Bead probe technology places extra solder in the form of a bump on narrow openings on fine-line traces for probing purposes.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 67",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "question": "In the Assembly Test Implementation diagram (Fig 2.4.5), \"Dead Part\" and \"Wrong Parts\" are faults detected by AXI.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 67",
+        "note": "They are detected by ICT (In-Circuit Test).",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "question": "The AB/R coupon incorporates registration geometry that replaces the legacy registration coupon F.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 54",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "question": "The reliability index 'R' is calculated using the formula R = (LD * ) / h, where 'h' is the solder joint height.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 58",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "question": "A well-wetted through-hole solder joint is shown in Figure 2.3.3.3.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 60",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "question": "An impedance control coupon must have a continuous power or ground plane under the conductors to form the reference plane.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 63",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "question": "In-circuit testing is meant to find marginal parts and verify critical timing parameters.",
+        "chapter": "Chapter 2",
+        "section": "Ch 2",
+        "page": "Pg 65",
+        "note": "The text states ICT is not meant for these purposes.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "question": "The term \"primary side\" now replaces \"solder side,\" and \"secondary side\" replaces \"component side.\":Chapter 3 • Ch 3, Pg 69 - The opposite is true",
+        "chapter": null,
+        "section": null,
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "question": "When an assembly drawing is created, the view of the secondary side must be mirrored for the technician to use it correctly.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 70",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "question": "A \"negative image\" of a plane layer shows the areas where copper will be removed, such as clearance holes around pins.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 71",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "question": "If a board has no conductors on the primary side, the next conductive layer is designated as Layer 2.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 72",
+        "note": "The next conductive layer becomes Layer 1.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "question": "Nonconductive layers like solder mask are numbered sequentially before all the conductive layers have been identified.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 72",
+        "note": "They are numbered after all conductive layers have been identified.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "question": "A datum is the actual physical feature of a part, such as a hole, that is used to establish a reference.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 73",
+        "note": "This defines a datum feature. A datum is the theoretically exact point, axis, or plane.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "question": "The primary datum plane (Datum A) is typically established by the primary side of the printed board.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 73",
+        "note": "It is opposite the primary side (i.e., the secondary side surface).",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "question": "The crossing point of the secondary and tertiary datums is referred to as the Point of Origin (0,0).",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 74",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "question": "A grid system must be located with respect to a minimum of three datums.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 77",
+        "note": "It is located with respect to a minimum of two datums.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "question": "The international standard grid (IEC 60097) is based on increments of 0.5 mm.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 77",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "question": "One of the design-related problems created by random component placement is the loss of logical, predictable conductor routing channels.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 78",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "question": "Tooling holes are used to ensure the accuracy of layer-to-layer registration in a multilayer board.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 79",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "question": "\"X-Out\" fiducials are used to optically identify boards that passed the bare board test.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 81",
+        "note": "They identify boards that failed the test so components are not placed on them.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "question": "For a tooling pin and hole, Least Material Condition (LMC) of the hole is when the hole is at its smallest diameter.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 82",
+        "note": "LMC of a hole is its largest diameter. MMC is its smallest diameter.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "question": "The term \"Palletization\" is commonly associated with the production of bare boards, while \"Panelization\" is for assembled boards.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 84",
+        "note": "The opposite is true.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "question": "The common fabrication panel size in Europe and Asia is 1 meter square.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 84",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "question": "When using the \"work and turn\" method, it is recommended to rotate boards 90° to prevent component misalignment.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 86",
+        "note": "The text cautions to rotate 180° versus 90° to prevent misalignment.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "question": "The material remaining between two V-scores is called the \"web.\"",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 89",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "question": "Scoring is the preferred method for excising boards with complex, curved outlines.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 90",
+        "note": "Scoring is limited to straight lines.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "question": "The drilled holes used in breakaway tabs are often called \"mouse bites.\"",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 91",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "question": "The primary side of a board is always the side with the most components.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 69",
+        "note": "It is usually that side, but it is ultimately the side the designer determines to be the most critical.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "question": "Solder paste stencils and hole drilling templates are considered permanent parts of the board and must follow sequential layer numbering conventions.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 72",
+        "note": "The text states these temporary data layers can be numbered in any fashion.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "question": "The three mutually perpendicular datum planes control the positioning of holes, circuitry, masking, and legend.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 74",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "question": "A grid system's intersections have no tolerance and are considered the true position of a desired location.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 78",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "question": "Tooling holes are typically plated to increase their durability.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 82",
+        "note": "They are typically tightly toleranced unsupported (non-plated) holes.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "question": "The SMEMA standard for fiducials specifies a solid filled circle with a minimum diameter of 1.00 mm and a maximum of 3.00 mm.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 80",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "question": "The borders and margins required on a fabrication panel typically range from 9.5 to 38 mm.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 86",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "question": "Blanking or punching dies work best on thick, rigid board materials with glass reinforcements.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 90",
+        "note": "The text states these materials are not the most desirable and that composite materials or phenolics are best.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "question": "An alternative to a mouse bite is a score line across the breakaway area, but a diagonal score is costly due to special handling.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 91",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "question": "The tolerance zone for a feature may be square (defined by a plus/minus variation) or round (defined by a diameter).",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 78",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "question": "The common panel size in the US is 18 x 24 inches.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 86",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "question": "A good working relationship (AABUS) can overcome shortcomings in documented requirements when a lower level of completeness is used.",
+        "chapter": "Chapter 3",
+        "section": "Ch 3",
+        "page": "Pg 1",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "question": "The six basic electrical types of components are Resistor, Capacitor, Inductor, Transistor, Diode, and Crystal.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 93",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "question": "Active components, like resistors and capacitors, can only react to changes in current or voltage.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 94",
+        "note": "This defines passive components. Active components (transistors, diodes) can control current flow.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "question": "The term \"integrated\" can refer to components that are an integral part of a silicon substrate or to a processed and packaged microcircuit (IC).",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 95",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "question": "On single-sided printed boards, component leads are placed in supported (plated) holes.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 96",
+        "note": "They are placed in unsupported holes.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "question": "The logic symbol for a resistor officially has 3 points on each side and the angle is 30°.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 105",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "question": "A polarized capacitor's positive terminal must be connected to the circuit's positive voltage.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 107",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "question": "A diode's primary function is to store electrical charge.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 110",
+        "note": "This describes a capacitor. A diode allows current to flow in one direction.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "question": "The ANSI reference designator for a Light Emitting Diode (LED) is \"LED\".",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 111",
+        "note": "It is \"D\" or \"DS\". The text notes that \"LED\" is popular but not a correct reference designation.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "question": "The JEDEC designator \"2N\" in a transistor part number (e.g., 2N2222) signifies a device with two junction devices.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 112",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "question": "In a connector system, P1 should plug into J1.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 114",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "question": "A one-part board connector is a self-contained system consisting of a plug with pins and a jack with sockets.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 114",
+        "note": "This describes a two-part system. A one-part connector uses the board edge as the plug.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "question": "Metal shell edge connectors, sometimes called \"coke bottle\" connectors, are often used in high-vibration aerospace applications.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 115",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "question": "Press-fit connectors create solderless, mechanical connections and are often used on thick backplane boards.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 116",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "question": "The reference designator for a terminal block is TB.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 118",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "question": "Gate swapping is permitted between any two gates in an IC package, even if their logic functions are different.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 120",
+        "note": "Gate swapping is only permitted when the logic functions are identical.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "question": "The typical lead spacing between rows for a 14-pin DIP is 7.62 mm (0.300 in).",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 121",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "question": "The primary difference between an SOIC and an SOP is the component's color.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 121",
+        "note": "The difference is the lead pitch; SOPs typically have a finer pitch (0.65 mm or less) than SOICs (1.27 mm).",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "question": "Chip Scale Packages (CSPs) are significantly larger than the silicon die they contain.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 124",
+        "note": "They are essentially the same size as the die (no more than 1.2 times the die area).",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "question": "Embedded components can be \"formed\" using layers of the board or \"inserted\" as discrete thin components during lamination.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 126",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "question": "The width of the printed board edge that mates with a connector is called the \"tang.\"",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 128",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "question": "The IPC-7351B standard provides a footprint calculator for industry use.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 93",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "question": "A variable resistor with a sliding contact is known as a rheostat.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 105",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "question": "Through-hole radial capacitors are mounted with the body of the component horizontal to the surface of the board.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 108",
+        "note": "They are mounted vertically. Axial capacitors are mounted horizontally.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "question": "The cathode of a diode is the positive terminal.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 110",
+        "note": "The cathode is negative; the anode is positive.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "question": "A circle drawn around a schematic symbol (like a photodiode) designates that the logic function is part of a larger integrated circuit.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 111",
+        "note": "A circle designates an individual mechanical package. No circle indicates it's part of an IC.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "question": "The leads on a Field Effect Transistor (FET) are known as collector, base, and emitter.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 113",
+        "note": "They are source, gate, and drain.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "question": "A \"header\" is another name for a terminal block and is often given the same reference designation as a connector (P/J).",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 118",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "question": "Pin swapping and gate swapping are the same thing.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 120",
+        "note": "Pin swapping is interchanging input pins within a single gate. Gate swapping is swapping entire identical gates within a package.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "question": "As circuits became more complex, through-hole DIPs evolved into Pin Grid Arrays (PGAs) to accommodate a higher pin count.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 121",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "question": "The \"T\" in TSSOP stands for \"Tented.\"",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 122",
+        "note": "It stands for \"Thin.\"",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "question": "The absence of leads on QFN/DFN packages means the final solder joint height is critically dependent on the amount of solder deposited.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 125",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "question": "The nickel plating on edge connectors is primarily for cosmetic appearance.",
+        "chapter": "Chapter 4",
+        "section": "Ch 4",
+        "page": "Pg 128",
+        "note": "It serves as a hard anvil and a copper diffusion barrier.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "question": "Surface Mount Technology (SMT) utilizes component holes to mount the parts.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 157",
+        "note": "SMT does not use component holes; parts are mounted on surface lands.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "question": "Manufacturer data sheets are the most reliable source for the preferred land pattern of a component.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 157",
+        "note": "The text states this is not reliable and should not be counted upon as the preferred land pattern.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "question": "For a gull-wing lead, the heel fillet is the most important fillet for stabilization and buffering against stress.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 159",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "question": "Unacceptable side overhang of a discrete SMT component is permissible for Class 1 and 2 products.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 159",
+        "note": "Figure 5.3.5 states it is unacceptable for all three performance classes.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "question": "\"Over printing\" solder paste, where the stencil opening is larger than the pad, is a good idea to ensure sufficient solder volume.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 160",
+        "note": "It is a bad idea that can lead to solder smear and bridging.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "question": "Plastic DIP packages are specifically designed to withstand the high heat of reflow soldering.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 161",
+        "note": "The text states they are not necessarily designed to withstand reflow heat.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "question": "It is important not to stress a component during the lead forming process to avoid cracks where the leads join the component body.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 161",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "question": "For converting an axial through-hole component to surface mount, the lead should be straight for at least 1 D (diameter) but not less than 0.8 mm.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 162",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "question": "Staggered through-hole mounting of a flat pack is favored for assemblies that must withstand high levels of vibration.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 163",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "question": "Manual component placement techniques are less error-prone and less expensive than automatic placement.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 164",
+        "note": "They are more error-prone, more expensive, and time-consuming.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "question": "Most modern automatic placement machines use a vacuum pick-up head.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 165",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "question": "The recommended hole size for automated insertion is usually 0.7 mm [0.028 in] larger than the lead.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 165",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 141,
+        "question": "Newer, advanced automatic placement equipment no longer requires local fiducials to assist in orientation and alignment.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 166",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "question": "The two main types of soldering processes are local soldering and mass soldering.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 167",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "question": "The side of the board opposite the inserted through-hole parts is known as the wave side.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 167",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "question": "For secondary side SMT wave soldering, the longer axis of SOICs should be perpendicular to the longer axis of passive components.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 169",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 145,
+        "question": "During wave soldering, only untented vias should be allowed under low stand-off components.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 170",
+        "note": "Only tented vias (both sides) should be allowed.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 146,
+        "question": "Stencils are preferred over screens for high-volume applications because they are more durable and can apply a thicker layer of solder paste.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 170",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 147,
+        "question": "The process shown in Figure 5.6.5, \"Two Side SMT / Auto THT Assembly,\" involves only one soldering step.:Chapter 5 • Ch 5, Pg 171 - It involves two soldering steps",
+        "chapter": null,
+        "section": null,
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 148,
+        "question": "In Pin-in-Paste, the volume of solder paste is critical and should fill the plated-through hole during reflow.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 172",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 149,
+        "question": "A lead bend greater than 45 degrees is recommended for proper lead clinching.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 173",
+        "note": "It is not recommended; the bend should be between 15 and 45 degrees.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 150,
+        "question": "For DIP packages, a maximum of 4 corner leads per component can be clinched.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 174",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 151,
+        "question": "For tempered leads that cannot be clinched, the hole-to-lead ratio should be as loose as possible.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 174",
+        "note": "It must be kept as tight as possible to ensure a proper solder joint.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 152,
+        "question": "Axial leaded components weighing less than 5 grams per lead shall be mounted with their bodies in intimate contact with the board.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 155",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 153,
+        "question": "For packages with compliant leads greater than 1.25mm [0.050 in], they shall be mounted off the printed board with spaces to provide stress relief.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 156",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 154,
+        "question": "The IPC-7351B standard provides a footprint calculator for industry use.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 157",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 155,
+        "question": "Solder connections should be the only means of mechanical support for heavy components.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 155",
+        "note": "The text states they should not be the only means of support.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 156,
+        "question": "The purpose of modifying components is to add an extra thermal excursion to test the board's reliability.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 161",
+        "note": "The purpose is to eliminate a solder process and limit exposure to extra thermal excursions.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 157,
+        "question": "Ceramic DIPs and SIPs with modified leads tend to withstand the higher temperatures of the reflow process better than plastic packages.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 161",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 158,
+        "question": "A \"chip shooter\" can place over 50,000 parts per hour.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 164",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 159,
+        "question": "The \"Dual Wave Solder\" process consists of a turbulent wave followed by a smooth, knife-edge wave.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 169",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 160,
+        "question": "When SMT parts on the secondary side are wave soldered, a small dot of adhesive is used to secure the part.",
+        "chapter": "Chapter 5",
+        "section": "Ch 5",
+        "page": "Pg 170",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 161,
+        "question": "Solder mask is primarily used to protect component bodies from environmental damage.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 175",
+        "note": "Solder mask protects metal conductors (traces), not component bodies.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 162,
+        "question": "Liquid Photo Imageable (LPI) solder mask is the most common type used today and offers the highest positional accuracy.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 175",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 163,
+        "question": "SMOBC stands for Solder Mask Over Bare Components.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 176",
+        "note": "SMOBC stands for Solder Mask Over Bare Copper.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 164,
+        "question": "A gang mask opening is used when the spacing between SMT pads is too small to apply a reliable solder dam.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 176",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 165,
+        "question": "Dendritic growth is the formation of tin whiskers from a pure tin finish.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 177",
+        "note": "Dendritic growth is metal migration between conductors under the influence of a voltage gradient, not tin whiskers.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 166,
+        "question": "For Class 3 boards, the solder resist must meet the requirements of IPC-SM-840E, Class H.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 177",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 167,
+        "question": "Solder mask adheres well to all metal surfaces, including melting metals like tin/lead plating.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 178",
+        "note": "Solder mask may not adhere properly to melting metal surfaces because temperatures cause redistribution of the metals.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 168,
+        "question": "Cross-hatching relief is required when covering conductors with a melting metal finish if the conductor is wider than 1.3 mm [0.051 in].",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 178",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 169,
+        "question": "When tenting vias on Class 3 equipment, the maximum Finished Hole Size shall be 0.65 mm [0.026 in].",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 178",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 170,
+        "question": "Conformal coating is applied before the bare board is etched.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 180",
+        "note": "Conformal coating is applied after assembly and electrical testing.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 171,
+        "question": "Copper-infused epoxy is a primary type of conformal coating material.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 180",
+        "note": "The primary types are silicone elastomers, organics, and vapor-deposited (parylene).",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 172,
+        "question": "Paraxylylene (XY) conformal coating has a recommended thickness range of 0.01-0.05 mm.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 180",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 173,
+        "question": "Conformal coatings can be used in greater thicknesses to act as a shock and vibration dampening agent.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 181",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 174,
+        "question": "Paraxylene coating is applied by spraying at room temperature.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 181",
+        "note": "Paraxylene is applied in a vacuum, allowing it to get under components with small stand-off heights.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 175,
+        "question": "An Organic Solderability Preservative (OSP) acts as a permanent protective layer for the final product.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 182",
+        "note": "OSP is temporary, protecting copper from oxidation only until the board is ready to be soldered.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 176,
+        "question": "The typical shelf life of an OSP coating is 12 months.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 182",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 177,
+        "question": "HASL surface finish tends to \"crown\" or mound on the pad, leaving a non-flat surface.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 183",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 178,
+        "question": "Lead-free HASL surface finish is a combination of Tin/Silver.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 183",
+        "note": "Lead-free HASL is a combination of Tin/Copper.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 179,
+        "question": "The historical name for the legend on a printed board is \"silkscreen.\"",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 184",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 180,
+        "question": "Company logo is the most critical marking required on a complex PCB design with limited space.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 184",
+        "note": "Polarity of polarized capacitors and diodes is considered required when space is limited.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 181,
+        "question": "Anodizing is a common method for applying legend markings on PCBs.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 184",
+        "note": "Anodizing is not listed as a method; common methods are ink, etched copper, and LPI.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 182,
+        "question": "Legend ink bleeding onto a solderable pad will reduce the solderability of the land.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 184",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 183,
+        "question": "For LPI and inkjet printed legends, the minimum character height is 1.1 mm [0.045 in].",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 185",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 184,
+        "question": "When legend is etched into a copper layer, a unique land shape (usually square) can be used to identify polarity or Pin 1.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 186",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 185,
+        "question": "Reference designators should be placed under components or in hidden locations for a cleaner appearance.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 187",
+        "note": "Reference designators should NOT be placed under components or in hidden locations.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 186,
+        "question": "Conductive ink is an additive process.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 187",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 187,
+        "question": "Silver conductive ink is often used for via fill in materials with high Z-axis expansion because it can expand easier without breaking.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 188",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 188,
+        "question": "The clearance for a photo-imaged solder mask can be as low as 0.00 mm.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 176",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 189,
+        "question": "The minimum solder mask strip (dam) for a Liquid PI mask is  .10 mm [.004 in].",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 176",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 190,
+        "question": "A maximum thickness specification for solder mask is required for solder paste applications (stenciling).",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 177",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 191,
+        "question": "ENEPIG is a combination of Electroless Nickel, Electroless Palladium, and Immersion Gold.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 183",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 192,
+        "question": "A permanent insulating layer is one of the listed functions that a surface finish may need to perform.",
+        "chapter": "Chapter 6",
+        "section": "Ch 6",
+        "page": "Pg 182",
+        "note": "This is NOT listed as a function of surface finishes.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 193,
+        "question": "The fabrication drawing specifies the materials, layer stackup, and hole sizes for the bare board.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 189",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 194,
+        "question": "The IPC-2611 standard defines two sets of classification: Grade and Class.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 189",
+        "note": "The standard defines Grade and Completeness, not Class.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 195,
+        "question": "A documentation package consisting of all electronic data is classified as Grade C.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 190",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 196,
+        "question": "Level 1 (Minimal) documentation requires great coordination between design and manufacturing with much information conveyed in notes or sketches.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 190",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 197,
+        "question": "A product identifier of \"2B-B3\" indicates a Class 3 product.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 191",
+        "note": "The \"2\" indicates Class 2, not Class 3.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 198,
+        "question": "Marketing is one of the five descriptive sections in the Documentation Package.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 191",
+        "note": "Marketing is NOT one of the five sections.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 199,
+        "question": "In the United States, drawing size formats are governed by ANSI/ASME Y14.1.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 193",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 200,
+        "question": "B size paper in the US is 11 x 17 inches.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 193",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 201,
+        "question": "ISO 216 drawing formats are organized around the ratio of 1:2.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 193",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 202,
+        "question": "Zones are the grid of letters and numbers around the periphery of a drawing format used for locating sections of interest.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 194",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 203,
+        "question": "In NASA/DOD drawing formats, zone letters and numbers originate from the top left corner.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 194",
+        "note": "They originate from the bottom right corner.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 204,
+        "question": "The title block contains the drawing number, title, scale, and company information.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 195",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 205,
+        "question": "For multiple sheet drawings, all sheets must be revised to the new letter regardless of changes.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 196",
+        "note": "Only individual sheets affected by the change should be identified.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 206,
+        "question": "IPC-2614 is the standard for Sectional Requirements for Board Fabrication Documentation.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 191",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 207,
+        "question": "Panel Data Set and Pallet Data Set are outputs of the Circuit Design stage.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 192",
+        "note": "They are outputs of the Packaging stage.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 208,
+        "question": "A soft copy drawing is defined as a bitmap in an electronic format.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 193",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 209,
+        "question": "Larger drawing sheet sizes allow for more component symbols on a single schematic sheet.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 193",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 210,
+        "question": "A4 is the ISO paper size used for standard letters, magazines, and forms.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 194",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 211,
+        "question": "Hand-drawn notes on hard copy are the preferred method for providing fabrication data.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 194",
+        "note": "The preferred method is in an intelligent, neutral standard format like IPC-2581.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 212,
+        "question": "The revision block tracks the history of changes, dates, and approvals.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 196",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 213,
+        "question": "The Revision Status of Sheets block indicates which specific sheets were affected by each revision.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 196",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 214,
+        "question": "IPC-2612 covers Electronic Diagramming Documentation (Schematics).",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 191",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 215,
+        "question": "Level 2 documentation includes information on manufacturing allowances included in the design.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 190",
+        "note": "Level 2 lacks this information.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 216,
+        "question": "Grade in IPC-2611 replaces the older term \"Class\" from IPC-D-325.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 1",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 217,
+        "question": "The Printed Board Layout receives direct input from Parts List, Schematic Diagram, and End Product Requirements.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 192",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 218,
+        "question": "The Production Master is created from Holes & Process Data, Fabrication Process Spec, and Data Pattern.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 192",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 219,
+        "question": "Many ECAD systems can reduce large drawings to A or B size for easier printing on standard copy machines.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 193",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 220,
+        "question": "A0 ISO paper size is 841 x 1189 mm.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 194",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 221,
+        "question": "The CAGE code is typically found in the revision block.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 195",
+        "note": "It is found in the title block.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 222,
+        "question": "Electronic signatures with security measures are acceptable for engineering drawing revisions.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 196",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 223,
+        "question": "IPC-2581 defines the data set for Testing.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 191",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 224,
+        "question": "Grade B represents a mixed hard copy and electronic data documentation package.",
+        "chapter": "Chapter 7",
+        "section": "Ch 7",
+        "page": "Pg 190",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 225,
+        "question": "The first document a PCB designer usually encounters is the assembly drawing.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 197",
+        "note": "It is the logic or schematic diagram that defines electrical connectivity.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 226,
+        "question": "A hierarchical schematic partitions the design into multiple levels of detail called \"circuit blocks.\"",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 197",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 227,
+        "question": "A logic diagram shows detailed point-to-point wiring connections.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 197",
+        "note": "Logic diagrams show signal flow and control but not necessarily point-to-point wiring.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 228,
+        "question": "The three basic elements of a schematic diagram are component symbols, reference designators/values, and interconnection lines.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 198",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 229,
+        "question": "Thick lines on a schematic represent single electrical connections.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 198",
+        "note": "Thick lines represent busses (multiple related signals or power/ground).",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 230,
+        "question": "Back annotation is the process of updating the schematic with changes made during layout.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 200",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 231,
+        "question": "Unused gates, resistors, capacitors, and connector pins should be deleted from the schematic to save space.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 200",
+        "note": "They should be listed, often under a heading called \"SPARES\".",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 232,
+        "question": "Unused pins on semiconductors are identified by placing an \"X\" or \"NC\" at the end of the pin's leader line.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 201",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 233,
+        "question": "Schematic notes should typically be located on the last sheet of the schematic drawing.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 201",
+        "note": "They should be on the first sheet.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 234,
+        "question": "Components of a separate subassembly shown for reference only are typically enclosed by phantom lines.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 202",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 235,
+        "question": "The IEEE is the standard coordinating committee that specifies graphic symbols for electronic components.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 198",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 236,
+        "question": "A flat schematic is typically used for highly complex, multi-board systems.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 197",
+        "note": "Flat schematics are for simple or stand-alone designs.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 237,
+        "question": "Breaking an IC symbol into multiple logical functions allows them to be placed separately for schematic clarity.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 200",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 238,
+        "question": "Note 3 in schematics (\"Unless otherwise specified...\") lists all components on the board.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 201",
+        "note": "It provides default values and tolerances to declutter the schematic.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 239,
+        "question": "The bill of materials links reference designators to specific part numbers and purchasing information.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 201",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 240,
+        "question": "The connective netlist allows footprints to become more standardized.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 197",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 241,
+        "question": "A logic diagram always shows point-to-point wiring.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 197",
+        "note": "It shows signal flow and control but not necessarily point-to-point wiring.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 242,
+        "question": "\"A[15:0]\" on a block diagram represents a 16-bit bus (signals A0 through A15).",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 197",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 243,
+        "question": "The schematic is recommended for showing mechanical components attached at second level assembly.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 198",
+        "note": "This is not recommended on schematics.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 244,
+        "question": "Back annotation transfers the netlist from layout to schematic to check gate swap accuracy.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 200",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 245,
+        "question": "Reference designators on schematics are typically assigned from left to right, top to bottom.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 200",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 246,
+        "question": "An \"X\" next to pins indicates they are critical high-speed outputs.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 201",
+        "note": "\"X\" indicates unused pins.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 247,
+        "question": "Typical capacitor notes specify values in microfarads with +/-10% tolerance and 100 VDC rating.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 201",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 248,
+        "question": "Phantom lines show components that will be added in a future revision.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 202",
+        "note": "They show components of a separate subassembly for reference only.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 249,
+        "question": "The netlist can link to internet datasheets, supplier availability, and distributor costs.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 197",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 250,
+        "question": "Flat schematics require extensive reuse of circuit blocks.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 197",
+        "note": "They are for simple designs without deep hierarchy.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 251,
+        "question": "ANSI is a private non-profit organization that oversees voluntary consensus standards.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 198",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 252,
+        "question": "Power pins for ICs are often separated from the main logic symbol for ease of diagramming.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 200",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 253,
+        "question": "\"Partial reference designations\" means only some components have reference designators.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 201",
+        "note": "It means the full designator (with unit prefix) isn't shown on every part to declutter.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 254,
+        "question": "Subassemblies in phantom lines on schematics are also enclosed by phantom lines on assembly drawings.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 202",
+        "note": "They are enclosed on the schematic drawing, not assembly.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 255,
+        "question": "The primary output of schematic and logic diagrams is for ECAD layout tools to design the printed board.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 197",
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 256,
+        "question": "Figure 8.4 shows a schematic composed of individual gates.",
+        "chapter": "Chapter 8",
+        "section": "Ch 8",
+        "page": "Pg 200",
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 257,
+        "question": "The board fabrication drawing is also referred to as the master drawing.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 258,
+        "question": "A product identifier of \"3C-B3\" indicates Level A producibility.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "\"C\" indicates Level C (High Complexity).",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 259,
+        "question": "AABUS stands for \"As Agreed Upon Between User and Supplier.\"",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 260,
+        "question": "Design Rule Checks (DRCs) are performed manually after fabrication.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "DRCs are performed by ECAD tools during design.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 261,
+        "question": "Bow and twist allowances are listed under Board Details in Table 9.1.1.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 262,
+        "question": "Conductor layer identification must start with the secondary side as Layer 1.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "The primary side is designated as Layer 1.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 263,
+        "question": "In Completeness Mode 1, the layer stackup is defined with a general description.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 264,
+        "question": "Mode 3 data sets specify surface finish as a fabricator option.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "Mode 3 requires specific surface finish requirements.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 265,
+        "question": "Completeness Mode 3 is recommended for high-reliability products and \"build anywhere\" applications.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 266,
+        "question": "Figure 9.1.1 shows a fabrication drawing formatted for ANSI D size.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 267,
+        "question": "Puncturing of tented holes is permissible according to typical fabrication notes.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "Puncturing of tented holes is not permissible.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 268,
+        "question": "In a 6-layer board stackup, Layer 3 is typically designated as the GND Plane.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 269,
+        "question": "The Hole Schedule must match data contained in the Assembly Drawing.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "It must match the NC Drill file.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 270,
+        "question": "Every hole location needs to be dimensioned on the drill pattern detail drawing.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "It's unnecessary because locations are in the NC Drill file.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 271,
+        "question": "CAD-generated plotter files defining board circuitry are called GERBERS.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 272,
+        "question": "Production masters are often made of film or glass.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 273,
+        "question": "GDT stands for Gerber Data Transfer.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "GDT stands for Geometric Dimensioning and Tolerancing.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 274,
+        "question": "Positional tolerancing provides a tolerance zone at least 57% larger than bilateral tolerancing.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 275,
+        "question": "The letters I, O, and Q are commonly used as datum identifying letters.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "These letters are excepted (not used) as datum letters.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 276,
+        "question": "Maximum Material Condition is represented by a circle with an \"M\" inside.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 277,
+        "question": "The first compartment of a feature control frame contains the tolerance value.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "It contains the geometric characteristic symbol.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 278,
+        "question": "Incremental (chain) dimensioning is preferred because it prevents tolerance accumulation.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "It's NOT preferred because it allows tolerance accumulation.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 279,
+        "question": "Three datum planes are required to fully dimension a plated-through hole.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 280,
+        "question": "\"Or Equivalent\" means the fabricator must use the exact part number specified.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "It means alternative materials meeting the same properties can be used.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 281,
+        "question": "Profile Routing Data is part of the printed board data set.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 282,
+        "question": "The symbol \"X\" in the Hole Schedule denotes Non-Plated holes.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "\"X\" denotes Plating Req'd (Tented).",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 283,
+        "question": "Board outline dimensioning should follow ASME Y14.5M standard.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 284,
+        "question": "Production masters are replaced frequently because they wear out.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 285,
+        "question": "Pin holes and opaque defects in phototools improve the final product.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": "They make the imaged product inferior.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 286,
+        "question": "A basic dimension is a numerical value with no tolerance directly applied.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 287,
+        "question": "\"Regardless of Feature Size\" is represented by a circle with an \"S\" inside.",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 288,
+        "question": "Bonus tolerance in GDT is achieved by applying Maximum Material Condition (MMC).",
+        "chapter": "Chapter 9",
+        "section": "Ch 9",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 289,
+        "question": "The assembly drawing depicts the physical relationship of components on an assembly.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 290,
+        "question": "Copper trace widths are typically found on an assembly drawing.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "These are on the fabrication drawing, not assembly.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 291,
+        "question": "Components that are screwed down or plugged in are shown on the main component assembly drawing.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "They are usually shown on an upper-level assembly drawing.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 292,
+        "question": "In labeling example Figure 10.1.1, \"56776\" represents the CAGE CODE.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 293,
+        "question": "J-STD-001 and IPC-A-610 are standards for bare board fabrication.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "They are workmanship and acceptability standards for printed board assemblies.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 294,
+        "question": "For small boards with components on both sides, both arrangements can be shown on a single assembly drawing sheet.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 295,
+        "question": "The Bill of Materials contains part numbers, quantities, and descriptions for all materials and components.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 296,
+        "question": "Today, most parts lists are an integral part of the assembly drawing.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "They are separate from the assembly drawing and computer-generated.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 297,
+        "question": "A separate parts list should have the same drawing number as the assembly drawing.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 298,
+        "question": "Item 1 on a BOM always refers to the main processor.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "Item 1 always refers to the bare, unpopulated printed board.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 299,
+        "question": "Reference documents like schematics are not listed in the BOM.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "They are included at the beginning with abbreviation \"REF\".",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 300,
+        "question": "The \"REF DES\" column shows unique reference designators like R11, R14.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 301,
+        "question": "Designers should utilize non-standard parts to make designs more unique.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "Standard parts should be used to vitalize inventory control and reduce cycle time.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 302,
+        "question": "ECIA develops standards for interconnect, passive, and electromechanical components.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 303,
+        "question": "For connectors requiring keys, the assembly drawing should show the manufacturer of the key.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "It should show exact key position and assembly instructions.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 304,
+        "question": "Bow and twist requirements after assembly belong in the fabrication drawing notes.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "They should be in the assembly drawing documentation.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 305,
+        "question": "IPC-7525 provides guidelines for stencil design.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 306,
+        "question": "3D isometric views should always be included regardless of value to the assembly process.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "They should only be included if they add value to the assembly process.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 307,
+        "question": "Assembly drawing information must match the schematic and parts list.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 308,
+        "question": "Parts list drawings are preceded by letters \"PL\" to distinguish them from assembly drawings.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 309,
+        "question": "Every part on the assembly drawing must have an item number matching the parts list.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 310,
+        "question": "A netlist is a typical reference drawing found in a BOM.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 311,
+        "question": "Assembly drawing reference designators correlate to those on the schematic or logic diagram.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 312,
+        "question": "JEDEC oversees package standards development as an offshoot of the EIA.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 313,
+        "question": "For non-standard parts, designers need mechanical information to verify size and terminal locations.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 314,
+        "question": "Component lead forming specifications are found on the fabrication drawing.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "They are found on the assembly drawing.",
+        "answers": [
+            {
+                "label": "False",
+                "correct": true
+            },
+            {
+                "label": "True",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 315,
+        "question": "Electrical test (ATE) requirements are specified in the assembly drawing documentation.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 316,
+        "question": "Instructions for securing jumper wires are found on the schematic diagram.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "They are found on the assembly drawing.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 317,
+        "question": "Solder paste thickness and flux type for SMT components are defined on the assembly drawing.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 318,
+        "question": "Serial number stamping instructions are specified on the parts list.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": "They are specified on the assembly drawing.",
+        "answers": [
+            {
+                "label": "True",
+                "correct": false
+            },
+            {
+                "label": "False",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 319,
+        "question": "IPC-7095 is the standard for Design & Assembly Process Implementation for BGAs.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "True",
+                "correct": true
+            },
+            {
+                "label": "False",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 320,
+        "question": "Separate parts lists should maintain the same revision letter as the assembly drawing.",
+        "chapter": "Chapter 10",
+        "section": "Ch 10",
+        "page": null,
+        "note": null,
+        "answers": [
+            {
+                "label": "False",
+                "correct": false
+            },
+            {
+                "label": "True",
+                "correct": true
+            }
+        ]
+    }
+]
