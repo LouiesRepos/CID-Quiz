@@ -55,11 +55,12 @@ const els = {
 
 els.year.textContent = String(new Date().getFullYear());
 
-const MODE_LABEL = { mc: "Multiple Choice", tf: "True / False", mix: "Combined" };
+const MODE_LABEL = { mc: "Multiple Choice", tf: "True / False", ai: "AI" };
 const LETTERS = ["A","B","C","D","E","F"];
 
 let bankMC = [];
 let bankTF = [];
+let bankAI = [];
 
 let settings = {
   mode: "mc",
@@ -115,28 +116,6 @@ function setLoadStatus(msg, ok=true){
 function updateModePill(){
   els.modePill.textContent = MODE_LABEL[settings.mode] ?? "Quiz";
 }
-function chapterSort(a, b){
-  const ax = extractChapterNumber(a);
-  const bx = extractChapterNumber(b);
-
-  // If both have numbers, sort numerically
-  if (ax !== null && bx !== null) return ax - bx;
-
-  // If only one has a number, put numbered chapters first
-  if (ax !== null && bx === null) return -1;
-  if (ax === null && bx !== null) return 1;
-
-  // Otherwise fallback to normal text sort
-  return a.localeCompare(b, undefined, { sensitivity: "base" });
-}
-
-function extractChapterNumber(ch){
-  // Matches: "Chapter 1", "chapter 10", "CHAPTER 2A" (takes leading number)
-  const m = String(ch).match(/chapter\s*(\d+)/i);
-  if (!m) return null;
-  const n = parseInt(m[1], 10);
-  return Number.isFinite(n) ? n : null;
-}
 
 /* ---------- Robust JSON loading ---------- */
 async function loadJSONAny(paths){
@@ -189,12 +168,13 @@ function buildChapterIndex(){
   };
   bankMC.forEach(add);
   bankTF.forEach(add);
+  bankAI.forEach(add);
   return map;
 }
 
 function renderChapters(){
   const chapterMap = buildChapterIndex();
-  const chapters = [...chapterMap.keys()].sort(chapterSort);
+  const chapters = [...chapterMap.keys()].sort((a,b)=>a.localeCompare(b, undefined, { sensitivity:"base" }));
 
   settings.selectedChapters = new Set(chapters);
 
@@ -266,6 +246,7 @@ function currentPool(){
   let pool = [];
   if (settings.mode === "mc") pool = bankMC;
   else if (settings.mode === "tf") pool = bankTF;
+  else if (settings.mode === "ai") pool = bankAI;
   else pool = [...bankMC, ...bankTF];
 
   // filter by selected chapters
@@ -750,14 +731,19 @@ async function init(){
     // Try a few common filename variants (fixes GitHub Pages/case issues)
     const rawMC = await loadJSONAny(["./MULTICHOICE.json","./multichoice.json","./MULTICHOICE.JSON","./Multichoice.json"]);
     const rawTF = await loadJSONAny(["./TRUEORFALSE.json","./trueorfalse.json","./TRUEORFALSE.JSON","./TrueOrFalse.json"]);
+    const rawAI = await loadJSONAny(["./ARTIFICIAL.json","./artificial.json","./ARTIFICIAL.JSON","./Artificial.json"]);
 
     bankMC = normalizeBank(rawMC, "mc");
     bankTF = normalizeBank(rawTF, "tf");
+    bankAI = normalizeBank(rawAI, "ai");
 
-    const total = bankMC.length + bankTF.length;
+    const total = bankMC.length + bankTF.length + bankAI.length;
     if (!total) throw new Error("No questions found after parsing.");
 
-    setLoadStatus(`Loaded ${bankMC.length} multiple choice + ${bankTF.length} true/false questions.`, true);
+    setLoadStatus(
+      `Loaded ${bankMC.length} multiple choice + ${bankTF.length} true/false + ${bankAI.length} AI questions.`,
+      true
+    );
 
     renderChapters();
     updateModePill();
