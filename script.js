@@ -78,6 +78,30 @@ let quizState = {
   history: []
 };
 
+function chapterSort(a, b){
+  const ax = extractChapterNumber(a);
+  const bx = extractChapterNumber(b);
+
+  // If both have numbers, sort numerically
+  if (ax !== null && bx !== null) return ax - bx;
+
+  // If only one has a number, put numbered chapters first
+  if (ax !== null && bx === null) return -1;
+  if (ax === null && bx !== null) return 1;
+
+  // Otherwise fallback to normal text sort
+  return a.localeCompare(b, undefined, { sensitivity: "base" });
+}
+
+function extractChapterNumber(ch){
+  // Matches: "Chapter 1", "chapter 10", "CHAPTER 2A" (takes leading number)
+  const m = String(ch).match(/chapter\s*(\d+)/i);
+  if (!m) return null;
+  const n = parseInt(m[1], 10);
+  return Number.isFinite(n) ? n : null;
+}
+
+
 function safeText(v){ return (v === null || v === undefined) ? "" : String(v).trim(); }
 function clamp(n, min, max){ return Math.max(min, Math.min(max, n)); }
 function normChapter(q){
