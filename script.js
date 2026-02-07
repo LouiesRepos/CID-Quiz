@@ -244,10 +244,16 @@ function renderChapters(){
 /* ---------- Dynamic count options ---------- */
 function currentPool(){
   let pool = [];
-  if (settings.mode === "mc") pool = bankMC;
-  else if (settings.mode === "tf") pool = bankTF;
-  else if (settings.mode === "ai") pool = bankAI;
-  else pool = [...bankMC, ...bankTF];
+
+  if (settings.mode === "mc") {
+    pool = bankMC;
+  }
+  else if (settings.mode === "tf") {
+    pool = bankTF;
+  }
+  else if (settings.mode === "ai") {
+    pool = bankAI;   // ONLY AI QUESTIONS
+  }
 
   // filter by selected chapters
   const sel = settings.selectedChapters;
